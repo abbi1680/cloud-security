@@ -1,1 +1,2 @@
-2 Security Practices
+1. The IAM Role has administrative access to the s3 buckets
+2. The WebAppSG allows RDP connections from the public internet
