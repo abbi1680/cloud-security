@@ -1,0 +1,1 @@
+AWS Guard Duty constantly monitors data from AWS CloudTrail, VPC Flow Logs and DNS Logs to detect this attack.
