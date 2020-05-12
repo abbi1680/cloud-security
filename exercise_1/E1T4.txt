@@ -1,2 +1,3 @@
 1. The IAM Role has administrative access to the s3 buckets
-2. The WebAppSG allows RDP connections from the public internet
+2. The WebAppSG allows multiple port access from the public internet to the Web Service Instance which sits in a public subnet. This should sit in a private subnet and use port 443 instead of 80, with access from the AppLoadBalancerSG to the instance.
+3. The default private routes have destination cidr to the internet, so a malicious resource in the private subnet could communicate with any endpoint on the internet
